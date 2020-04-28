@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="asset/css/styles.css" />
+  <title>Exercice Framework Bootstrap</title>
+</head>
+<body>
+
+  <div style="background: url(asset/img/image2.png)" class="page-holder bg-cover">
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice1.html">Exercice 1</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice2.html">Exercice 2</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice3.html">Exercice 3</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice4.html">Exercice 4</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice5.html">Exercice 5</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Exercice6.html">Exercice 6</a></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Exercice7.html">Exercice 7<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid mt-3 text-center">
+        <div class="container">
+          <h1 class="display-4">EXERCICE 7</h1>
+          <p class="lead">Pensez à vérifier que votre page HTML soit bien responsive.
+            Reproduire l'image ci-dessous.Faire une card avec un bouton.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card text-center row justify-content-center" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">La Manu Le Havre</h5>
+            <p class="card-text">L'école des mériers du numérique.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infoModal">+ d'info
+            </button>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="infoModalLabel">La Manu Le Havre</h4>
+              </div>
+              <div class="modal-body text-center bg-primary">https://lamanu.fr/le-havre
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+  </html>
